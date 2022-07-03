@@ -48,6 +48,7 @@ function renderCountry(country) {
 function onFetchError(error) {
     Notiflix.Notify.failure('Oops, there is no country with that name')
     countryList.innerHTML = "";
+    countryInfo.innerHTML = "";
 };
 
 
